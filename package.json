@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "My boilerplate for React web applications.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --no-minify",
+    "test": "mocha --require babel-core/register 'test/**/*.js' -r test/.setup.js"
+  },
+  "keywords": [],
+  "author": "Kotaro Takahashi <kotaro.t@k4h4shi.com> (http://k4h4shi.com)",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "enzyme": "^3.2.0",
+    "enzyme-adapter-react-16": "^1.1.0",
+    "mocha": "^4.0.1",
+    "parcel-bundler": "^1.1.0",
+    "react-hot-loader": "^3.1.3",
+    "react-test-renderer": "^16.2.0"
+  }
+}
